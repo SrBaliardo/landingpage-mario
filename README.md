@@ -3,7 +3,8 @@
 <b> DevClub </b> didactic project with template changes.
 
 Fully responsive and functional site to be adapted to any area/client.
-<img src="./src/images/">
+
+<img height="auto" width="500" src="./src/images/landingpage-mario.gif">
 
 You can view the project via the link: <br>
 https://srbaliardo.github.io/landingpage-mario
