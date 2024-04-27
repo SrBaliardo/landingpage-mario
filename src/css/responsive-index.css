@@ -1,0 +1,91 @@
+@media (max-width: 865px) {
+    .box-infos .box-about p {
+        display: none;
+    }
+
+    .box-infos .box-about h2 {
+        text-align: center;
+    }
+
+    .box-infos {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .box-about {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        margin-left: 0;
+        height: 150px;
+    }
+
+    .img-mario-luigi {
+        width: 80vw;
+        height: auto;
+        margin-top: 25px;
+    }
+
+    .header ul{
+        font-size: 17px;
+        gap: 5px;
+    }
+
+    .header img {
+        height: 30px;
+    }
+
+    .header {
+        justify-content: center;
+        gap: 10px;
+        position: relative;
+    }
+}
+
+
+@media (max-width: 865px) {
+    .services {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .services .item {
+        text-align: center;
+    }
+
+    .services .item h3 {
+        font-size: 36px;
+    }
+
+    .services .item p {
+        font-size: 24px;
+    }
+    
+}
+
+@media (max-width: 590px) {
+    .xservices {
+        grid-template-columns: 1fr;
+    }
+
+    .xservices {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .xservices .service p {
+        font-size: 24px;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .footer ul {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,126 @@
+body {
+    background-color: #001d06;
+}
+
+h1 {
+    color: white;
+    margin: 35px 75px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.services .item {
+    padding: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(95deg, rgba(7,97,0,1) 18%, rgba(229,231,228,1) 81%);
+}
+
+.services .item h3 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.services .item p {
+    font-size: 1.8rem;
+    margin: 30px 0;
+    font-weight: 400;
+}
+
+.services .image {
+    height: 100%;
+    width: 100%;
+}
+
+.services .image.right1 {
+    background: url('../images/mario-service.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.services .image.left1 {
+    background: url('../images/mario-pipes.webp') center center no-repeat;
+    background-size: cover;
+}
+
+.services .image.right2 {
+    background: url('../images/mario-luigi.webp') center center no-repeat;
+    background-size: cover;
+}
+
+.services .image.left2 {
+    background: url('../images/mario-cool.webp') center center no-repeat;
+    background-size: cover;
+}
+
+.xservices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.xservices .service {
+    padding: 70px 20px;
+}
+
+.xservices .service img {
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.xservices .service h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.xservices .service p {
+    font-size: 2rem;
+    font-weight: 400;
+    max-width: 400px;
+    margin: 20px auto 0;
+    line-height: 25px;
+}
+
+.xservices .service:nth-child(1) {
+    background: radial-gradient(circle, rgba(90,152,249,1) 18%, rgba(0,49,94,1) 81%);
+}
+
+.xservices .service:nth-child(2) {
+    background: radial-gradient(circle, rgba(227,249,90,1) 18%, rgba(92,94,0,1) 81%);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    height: 70px;
+    width: 100%;
+}
+
+.footer ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.footer a {
+    padding: 5px;
+    transition: .3s;
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: crimson;
+}

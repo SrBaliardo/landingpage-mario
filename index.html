@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style-index.css">
+    <link rel="stylesheet" href="./src/css/responsive-index.css">
+
+    <link rel="shortcut icon" href="./src/images/icon.png" type="image/x-icon">
+    <title>Landing Mario&Luigi</title>
+</head>
+<body>
+    <header class="header">
+        <img src="./src/images/icon.png" alt="">
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nossos-servicos.html">Nossos Serviços</a></li>
+                <li><a onclick="viewForm()">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="box-infos">
+        <div class="box-about">
+            <img class="logo" src="./src/images/logo.png" alt="image_logo-mario">
+            <h2>🔧 Encanadores Mário & Luigi - Resolvendo seus problemas com estilo! ⛏️</h2>
+            <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos entupidos ou torneiras que não para de pingar? Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario & Luigi!</p>
+            
+            <button class="btn-contact" onclick="viewForm()">Entre em contato</button>
+        </div>
+        
+        <div class="box-img">
+            <img class="img-mario-luigi" src="./src/images/mario.png" alt="image_mario&luigi">
+        </div>
+    </div>
+
+    <div class="box-movie">
+        <video class="movie" src="./src/movies/video.mp4" autoplay muted loop></video>
+    </div>
+
+    <a class="whatsapp" href="https://wa.me/5516996402765?text=Ol%C3%A1%2C+preciso+da+ajuda+dos+irm%C3%A3os+M%C3%A1rio+%26+Luigi+%21" target="_blank">
+        <img src="./src/images/whatsapp.png" alt="image_whatsapp">
+    </a>
+
+    <form class="form-contact" action="https://formcarry.com/s/XsH2leoYx2a" method="POST" enctype="multipart/form-data">
+        <input type="text" name="Nome" placeholder="Digite seu nome">
+        <input type="tel" name="Telefone" placeholder="Digite seu telefone">
+        <textarea name="Mensagem" cols="40" rows="50" placeholder="Digite sua mensagem aqui..."></textarea>
+        <button type="submit" class="btn-submit"> Pedir orçamento</button>
+    </form>
+    <div class="form-bg" onclick="hiddenForm()"></div>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
