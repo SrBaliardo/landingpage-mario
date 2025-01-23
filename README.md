@@ -17,7 +17,7 @@ https://srbaliardo.github.io/landingpage-mario
 
 <br>
 
-<img height="auto" width="500" src="./src/images/landingpage-mario.gif">
+<img height="auto" width="500" src="./src/images/animation_landingpage-mario.gif">
 
 <br>
 
