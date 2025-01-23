@@ -1,186 +1,196 @@
 body {
-    height: 100vh;
+  height: 100vh;
 }
 
 .box-infos {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 100px;
-    height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px;
+  height: calc(100vh - 70px);
 }
 
 .logo {
-    height: 200px;
-    margin-bottom: 10px;
-    margin-left: -40px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-left: -40px;
 }
 
 .btn-contact {
-    background-color: crimson;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    width: 200px;
-    height: 50px;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 30px;
-    transition: .3s;
+  background-color: crimson;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 30px;
+  transition: 0.3s;
 }
 
 .btn-contact:hover {
-    background-color: white;
-    color: crimson;
+  background-color: white;
+  color: crimson;
 }
 
 .img-mario-luigi {
-    height: 500px;
+  height: 500px;
 }
 
 .box-about {
-    width: 50%;
+  width: 50%;
 }
 
 .box-movie {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
 }
 
 .movie {
-    min-height: 100%;
-    min-width: 100%;
-    position: fixed;
-    top: 0;
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 .box-movie::after {
-    content: '';
-    position: absolute;
-    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
+  content: "";
+  position: absolute;
+  background: linear-gradient(
+    109deg,
+    rgba(10, 12, 16, 0.99) 15%,
+    rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  );
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
 }
 
 .box-infos .box-about h2,
 .box-infos .box-about p {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 .box-infos .box-about h2 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .whatsapp img {
-    height: 60px;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    transition: .3s;
+  height: 60px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  transition: 0.3s;
 }
 
 .whatsapp img:hover {
-    transform: scale(121%);
+  transform: scale(121%);
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    gap: 35px;
-    height: 70px;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap: 35px;
+  height: 70px;
+  width: 100%;
 }
 
 .header img {
-    height: 50px;
+  height: 50px;
 }
 
 .header ul {
-    color: white;
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 24px;
+  color: white;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 24px;
 }
 
 .header a {
-    padding: 5px;
-    transition: .3s;
-    text-decoration: none;
-    color: white;
+  padding: 5px;
+  transition: 0.3s;
+  text-decoration: none;
+  color: white;
 }
 
 .header a:hover {
-    color: crimson;
+  color: crimson;
 }
 
 .form-contact {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 25%;
-    left: -300px;
-    padding: 20px;
-    border-radius: 5px;
-    gap: 20px;
-    z-index: 1;
-    transition: .5s ease-in-out;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 25%;
+  left: -300px;
+  padding: 20px;
+  border-radius: 5px;
+  gap: 20px;
+  z-index: 1;
+  transition: 0.5s ease-in-out;
 }
 
 .form-bg {
-    position: fixed;
-    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    visibility: hidden;
-    transition: .3s ease-in-out;
+  position: fixed;
+  background: linear-gradient(
+    109deg,
+    rgba(10, 12, 16, 0.99) 15%,
+    rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  );
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
 }
 
 input {
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid gray;
-    padding-left: 5px;
-    outline-color: #18D80F;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 5px;
+  outline-color: #18d80f;
 }
 
 textarea {
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid gray;
-    padding-left: 5px;
-    outline-color: #18D80F;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 5px;
+  outline-color: #18d80f;
 }
 
 .btn-submit {
-    background-color: crimson;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    width: 200px;
-    height: 50px;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 30px;
-    transition: .3s;
+  background-color: crimson;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 30px;
+  transition: 0.3s;
 }
 
 .btn-submit:hover {
-    background-color: white;
-    color: crimson;
-    border: 1px solid #18D80F;
+  background-color: white;
+  color: crimson;
+  border: 1px solid #18d80f;
 }
